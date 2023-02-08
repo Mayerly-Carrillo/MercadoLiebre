@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--grisClaro);
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+img {
+    width: 100%;
+
+}
+html {
+  font-family: 'Roboto', sans-serif;
+}
+/* *** HEADER *** */
+header {
+    
+    background-color: var(--amarillo);
+    display: flex;
+    flex-direction: column;
+}
+.logo-container {
+    
+    display: flex;
+    flex-direction: column;
+}
+.menu-container {
+    
+    display: none;
+}
+.burger-container {
+    
+    display:flex;
+    justify-content: center;
+}
+.logo-bar-container {
+    
+    display: flex;
+}
+.card-container {
+    
+    padding: 15px;
+
+}
+.logo {
+    
+    width: 50%;
+    padding: 10px;
+}
+.search-button-container {
+    
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.search-container {
+    
+    display: flex;
+    height: 25px;
+    width: 90%;
+}
+.card-title {
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Roboto';
+
+}
+.card-title i {
+    margin-right: 10px;
+}
+input {
+    width: 95%;
+    border: none;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+button {
+    width:15%;
+    padding: 1px;
+    border: none;
+    background-color: white;
+    border-radius:  0 5px 5px 0;
+}
+.burger-menu {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: var(--blanco);
+    background-color: var(--azul);
+    
+
+}
+/* *** FIN HEADER ***/
+
+
+h2 {
+    font-size: 24px;
+    font-family: "Roboto";
+}
+.price {
+    font-size: 18px;
+}
+.discount {
+    font-size: 16px;
+    color: green;
+}
+.description {
+    font-size: 16px;
+}
+
+article div.main-article {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid var(--grisClaro);
+    display: block;
+    text-align: left;
+    font-family: "Roboto";
+    padding: 15px;
+
+}
+
+.banner img {
+    width: 100%;
+}
+main {
+    
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+main section article {
+    
+    background-color: #fff;
+    width: 95%;
+    margin: 10px;
+    padding: 15px;
+    justify-content: center;
+
+}
+ 
+.main-article i {
+    
+    color: #39b54a;
+    background-color: #fff;
+    display: block;
+    text-align: left;
+    font-family: "Roboto";
+   
+    
+}
+
+
+footer div h2 {
+    
+    color: #666;
+}
+footer  {
+    
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #666;
+    font-family: "Roboto";
+}
+.credit {
+
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.send {
+    
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.security {
+    
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer div i {
+    
+    display: flex;
+    color: #1259C3;
+    width: 2em;
+
+}
+footer div p {
+    
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.copyrigth {
+    
+    font-size: 10px;
+}
+
+
+
