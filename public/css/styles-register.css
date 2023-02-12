@@ -10,4 +10,13 @@ section .register {
     font-family: "Roboto";
 
 }
+button {
+    background-color: #eaeaea;
+    color: #000;
+}
+
+button:hover {
+    background-color: #1a73e8;
+    color: #fff;
+}
 

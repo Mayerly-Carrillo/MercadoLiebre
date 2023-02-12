@@ -7,3 +7,12 @@ main {
     display: contents;
     background: var(--grisClaro);
 }
+button {
+    background-color: #eaeaea;
+    color: #000;
+}
+
+button:hover {
+    background-color: #1a73e8;
+    color: #fff;
+}
