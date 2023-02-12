@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section .register {
+    display: block;
+    text-align: center;
+    background: var(--grisClaro);
+    font-family: "Roboto";
+
+}
+

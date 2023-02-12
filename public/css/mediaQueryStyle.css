@@ -126,5 +126,7 @@
         article:hover {
             height: 24em;
         }
-        
+        .menu-container {
+            display: list-item;
+        }
 }
