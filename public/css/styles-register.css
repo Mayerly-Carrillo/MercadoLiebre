@@ -3,20 +3,36 @@
     box-sizing: border-box;
 }
 
-section .register {
+.create-register {
+    padding: 15px 20px;
+    border: 1px solid var(--grisOscuro); 
+    width: 100%;
+}
+.control-register {
+    margin-bottom: 15px;
     display: block;
-    text-align: center;
-    background: var(--grisClaro);
+}
+.control-register label {
+    margin-bottom: 5px;
     font-family: "Roboto";
 
 }
-button {
+.control {
+    width: 100%;
+    padding: 8px 8px;
+    border: 1px solid black;
+}
+.options {
+    font-family: "Roboto";
+    margin-bottom: 15px;
+}
+.button-register {
     background-color: #eaeaea;
     color: #000;
-}
+    transition: tranform;
 
-button:hover {
-    background-color: #1a73e8;
-    color: #fff;
 }
-
+.button-register:hover {
+    background-color: var(--celeste);
+    color: var(--blanco);
+}
