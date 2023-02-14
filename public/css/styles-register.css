@@ -2,7 +2,12 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body {
+    background: var(--grisClaro);
+}
+header {
+    background: var(--amarillo);
+}
 .create-register {
     padding: 15px 20px;
     border: 1px solid var(--grisOscuro); 
@@ -27,8 +32,8 @@
     margin-bottom: 15px;
 }
 .button-register {
-    background-color: #eaeaea;
-    color: #000;
+    background-color: var(--grisOscuro);
+    color: darkblue;
     transition: tranform;
 
 }

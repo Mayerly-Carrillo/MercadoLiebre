@@ -65,6 +65,7 @@ header {
     align-items: center;
     height: 25px;
     width: 90%;
+    padding-top: 30px;
 }
 
 .card-title {
