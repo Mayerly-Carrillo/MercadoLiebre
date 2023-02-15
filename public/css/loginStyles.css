@@ -3,16 +3,42 @@
     box-sizing: border-box;
 }
 
-main {
-    display: contents;
+body {
     background: var(--grisClaro);
 }
-button {
+header {
+    background: var(--amarillo);
+}
+.login-container {
+    display:block;
+}
+.create-login {
+    padding: 15px 20px;
+    border: 1px solid var(--grisOscuro); 
+    width: 100%;
+}
+.control-login {
+    margin-bottom: 15px;
+    display: block;
+}
+.control-login label {
+    margin-bottom: 5px;
+    font-family: "Roboto";
+
+}
+.control-input {
+    width: 100%;
+    padding: 8px 8px;
+    border: 1px solid black;
+}
+
+
+.button-login {
     background-color: #eaeaea;
     color: #000;
 }
 
-button:hover {
+.button-login:hover {
     background-color: #1a73e8;
     color: #fff;
 }
