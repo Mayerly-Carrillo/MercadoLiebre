@@ -3,9 +3,11 @@
     box-sizing: border-box;
 }
 
-body {
-    background: var(--grisClaro);
+main {
+    height: 860px;
+    background: #ebebeb;
 }
+
 header {
     background: var(--amarillo);
 }
@@ -34,11 +36,11 @@ header {
 
 
 .button-login {
-    background-color: #eaeaea;
+    background-color: var(--blanco);
     color: #000;
 }
 
 .button-login:hover {
-    background-color: #1a73e8;
+    background-color: #0022AA;
     color: #fff;
 }

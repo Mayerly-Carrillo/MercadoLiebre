@@ -14,6 +14,7 @@ a {
 ul {
     list-style: none;
     padding: 0px;
+    font-family: "Roboto";
 }
 img {
     width: 100%;
@@ -113,6 +114,7 @@ main h2{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center; 
+    font-family: "Roboto";
 }
 
 .last-visit, .offers {
@@ -165,6 +167,7 @@ main h2{
 }
 h3, .description {
     color: var(--grisOscuro);
+    display: none;
 
 }
 

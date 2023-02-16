@@ -76,6 +76,11 @@
         display: block;
         justify-content: center;
         width: 47%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    h3, .description {
+        display: flex;
     }
 
     .main-article h4  {
