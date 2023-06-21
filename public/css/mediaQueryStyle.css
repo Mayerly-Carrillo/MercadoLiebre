@@ -12,7 +12,7 @@
     .search-button-container {
         width: 100%;
         display: inline-flex;
-        padding-top: 30px
+        padding-top: 30px;
     }
 
     .search-container {
@@ -21,7 +21,7 @@
 
     .card-container {
         display: flex;
-        width: 100%;
+        width: 80%;
         padding: 0;
         justify-content: center;
         align-items: center;
@@ -29,7 +29,7 @@
 
     .card-container h2 {
         font-size: 16px;
-        margin: 10px;
+        margin: 5px;
 
     }
 
@@ -46,9 +46,9 @@
 
     ul {
         display: inline-flex;
-        width: 48%;
+        width: 58%;
         justify-content: space-between;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: "Roboto";
         text-align: center;
     }

@@ -4,7 +4,7 @@
 }
 
 main {
-    height: 860px;
+    height: 550px;
     background: #ebebeb;
 }
 
@@ -15,14 +15,20 @@ header {
     display:block;
 }
 .create-login {
+    display: block;
+    justify-content: center;
     padding: 15px 20px;
-    border: 1px solid var(--grisOscuro); 
-    width: 100%;
+    width: 90%;
+    height: 530px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 .control-login {
     margin-bottom: 15px;
     display: block;
+    padding: 20px;
 }
+
 .control-login label {
     margin-bottom: 5px;
     font-family: "Roboto";
@@ -38,6 +44,11 @@ header {
 .button-login {
     background-color: var(--blanco);
     color: #000;
+    margin-left: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 70px;
 }
 
 .button-login:hover {

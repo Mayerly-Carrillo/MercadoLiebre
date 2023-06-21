@@ -10,10 +10,11 @@ header {
 }
 .register-container {
     display: block;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 .create-register {
     padding: 15px 20px;
-    border: 1px solid var(--grisOscuro); 
     width: 100%;
 }
 .control-register {
@@ -35,7 +36,7 @@ header {
     background-color: var(--grisOscuro);
     color: darkblue;
     transition: tranform;
-
+    margin-left: 80px;
 }
 .button-register:hover {
     background-color: var(--celeste);

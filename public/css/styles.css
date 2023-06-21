@@ -102,8 +102,12 @@ button {
     border-radius: 5px;
     color: var(--blanco);
     background-color: var(--azul);
-    
 
+}
+
+.search-container {
+    display: flex;
+    
 }
 /* *** FIN HEADER ***/
 

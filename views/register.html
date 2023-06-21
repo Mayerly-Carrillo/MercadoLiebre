@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/styles-register.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/mediaQueryStyle.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -27,7 +30,7 @@
                 <div class="search-button-container">
                     <div class="search-container">
                         <input type="text" placeholder="buscar productos, marcas y mas">
-                        <button><i class="fas fa-search"></button>
+                        <button><i class="fas fa-search"></i></button>
                     </div>
                 </div>
             </div>
@@ -56,7 +59,7 @@
     </header>
     <main>
         <div class="register-container">
-            <form action="/" method="POST" class="create-register">
+            <form action="/register" method="POST" class="create-register">
                 <div class="control-register">
                     <label for="nombre">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" class="control">
@@ -110,7 +113,7 @@
                     <input type="password" name="clave" class="control">
                 </div>
                 <div class="control-register">
-                    <button type="submit" class="button-register">Enviar</button>
+                   <button type="submit" class="button-register"><a href="/"></a>Enviar</button> 
                     <button type="reset" class="button-register">Borrar</button>
                 </div>
             </form>
